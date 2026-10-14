@@ -1,0 +1,13 @@
+Environment:
+- Python 3.10.9
+- Pydantic 2.14.1
+- FastAPI is imported from the local source checkout.
+
+Test generation requirements:
+1. Use Pydantic V2 APIs when importing BaseModel from pydantic.
+2. Do not use __config__ to configure Pydantic V2 models.
+3. For Pydantic V1-specific behavior, import BaseModel from pydantic.v1.
+4. Import all symbols referenced by generated tests.
+5. Verify expected behavior against the actual implementation.
+6. Do not blindly change assertions to match observed output.
+7. Ensure tests pass and increase statement or branch coverage.

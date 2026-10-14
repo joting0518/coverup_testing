@@ -1,0 +1,7 @@
+variant,run,output_dir,model,max_attempts,baseline_exit_code,baseline_seconds,baseline_cov_percent_covered,baseline_cov_num_statements,baseline_cov_missing_lines,baseline_cov_num_branches,baseline_cov_missing_branches,baseline_cov_num_partial_branches,coverup_exit_code,coverup_wall_seconds,coverup_log_bytes,final_exit_code,final_seconds,final_cov_percent_covered,final_cov_num_statements,final_cov_missing_lines,final_cov_num_branches,final_cov_missing_branches,final_cov_num_partial_branches,generated_test_files,status
+A,1,results/repeated_study/a_run_01,gpt-4o,2,0,1.392,82.23684210526316,98,13,54,14,8,0,41.252,203669,0,0.886,92.76315789473684,98,6,54,5,3,test_coverup_1.py,OK
+A,2,results/repeated_study/a_run_02,gpt-4o,2,0,1.022,82.23684210526316,98,13,54,14,8,0,36.753,173287,0,1.311,82.23684210526316,98,13,54,14,8,,OK
+A,3,results/repeated_study/a_run_03,gpt-4o,2,0,0.984,82.23684210526316,98,13,54,14,8,0,33.224,200739,0,0.929,82.23684210526316,98,13,54,14,8,,OK
+B,1,results/repeated_study/b_run_01,gpt-4o,5,0,4.001,82.23684210526316,98,13,54,14,8,0,82.739,491177,0,4.522,87.5,98,9,54,10,4,test_coverup_1.py,OK
+B,2,results/repeated_study/b_run_02,gpt-4o,5,0,3.956,82.23684210526316,98,13,54,14,8,0,51.732,200507,0,3.984,88.8157894736842,98,8,54,9,3,test_coverup_1.py,OK
+B,3,results/repeated_study/b_run_03,gpt-4o,5,0,4.688,82.23684210526316,98,13,54,14,8,0,50.311,199005,0,4.197,88.8157894736842,98,8,54,9,3,test_coverup_1.py,OK

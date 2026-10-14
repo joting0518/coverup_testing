@@ -1,0 +1,153 @@
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables / API Keys
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# =========================
+# Pytest
+# =========================
+.pytest_cache/
+.tox/
+.nox/
+
+# =========================
+# Coverage
+# =========================
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+coverage.json
+
+# =========================
+# CoverUp Generated Outputs
+# =========================
+.coverup/
+coverup_logs/
+coverup_output/
+generated_tests/
+
+# =========================
+# Type Checking / Linting
+# =========================
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Logs / Temporary Files
+# =========================
+*.log
+tmp/
+temp/
+.cache/
+
+# ==========================================
+# Python virtual environments
+# ==========================================
+venv/
+.venv/
+env/
+
+# ==========================================
+# Python cache and build artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ==========================================
+# Pytest and coverage cache
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# External source repository
+# ==========================================
+/fastapi/
+
+# ==========================================
+# Generated logs
+# ==========================================
+*.log
+/coverup-log
+
+# ==========================================
+# Generated experiment artifacts
+# ==========================================
+/results/repeated_study/*/tests/
+/results/repeated_study/*/baseline_coverage.json
+/results/repeated_study/*/final_coverage.json
+/results/repeated_study/*/test_coverup_*.json
+/results/repeated_study/*/metrics.json
+
+# Keep aggregated experimental results
+!/results/repeated_study/summary.csv
+
+# ==========================================
+# Other generated files
+# ==========================================
+/results/all_generated_tests.txt
+/project_structure.txt
+
+# ==========================================
+# macOS and editor files
+# ==========================================
+.DS_Store
+.vscode/
+.idea/
+

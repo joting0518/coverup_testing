@@ -1,0 +1,9 @@
+﻿file,test,line,assertion,expected_value_source,specification_reference,assertion_echo_risk,review_notes
+experiment_b/tests/test_coverup_1.py,test_custom_encoder,29,"assert result == ""custom_encoded""",,,,
+experiment_b/tests/test_coverup_1.py,test_include_set_conversion,34,"assert result == {""field1"": ""value1""}",,,,
+experiment_b/tests/test_coverup_1.py,test_exclude_set_conversion,39,"assert result == {""field1"": ""value1""}",,,,
+experiment_b/tests/test_coverup_1.py,test_pydantic_v1_encoders,51,"assert result == {""field1"": ""value1"", ""field2"": ""int_2""}",,,,
+experiment_b/tests/test_coverup_1.py,test_root_key_handling,59,"assert result == ""root_value""",,,,
+experiment_b/tests/test_coverup_1.py,test_enum_handling,64,"assert result == ""Option A""",,,,
+experiment_b/tests/test_coverup_1.py,test_purepath_handling,69,"assert result == ""/some/path""",,,,
+experiment_b/tests/test_coverup_1.py,test_encoders_by_class_tuples,83,"assert result == ""encoded_by_class""",,,,
